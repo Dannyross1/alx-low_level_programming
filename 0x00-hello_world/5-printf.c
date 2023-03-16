@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- * main - A with proper grammar, but the outcome is a piece of art,
+ * main - Entry Point
  * return:0 (success)
  */
 int main(void)
