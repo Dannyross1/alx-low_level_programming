@@ -1,6 +1,6 @@
 #include<stdio.h>
-/*
- * main - Entry Point
+/**
+ * main - A program that prints exactly the input
  * return:0 (success)
  */
 int main(void)
