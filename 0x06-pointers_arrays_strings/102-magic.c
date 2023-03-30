@@ -1,17 +1,14 @@
 #include <stdio.h>
 
-/* main - describes the int */
-
 int main(void)
 {
-	int n;
-	int a[5];
-	int *p;
+int n;
+int a[5];
+int *p;
 
 a[2] = 1024;
 p = &n;
 /*
-* main - Describes the int
 * write your line of code here...
 * Remember:
 * - you are not allowed to use a
