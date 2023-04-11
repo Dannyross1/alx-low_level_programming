@@ -15,14 +15,15 @@ char *str_concat(char *s1, char *s2)
 	int a, ci;
 
 	if (s1 == NULL)
-
+	{
 		s1 = "";
+	}
 
 	if (s2 == NULL)
-
+	{
 		s2 = "";
-
 		a = ci = 0;
+	}
 
 	while (s1[a] != '\0')
 		a++;
@@ -42,7 +43,6 @@ char *str_concat(char *s1, char *s2)
 		conct[a] = s1[a];
 		a++;
 	}
-
 	while (s2[ci] != '\0')
 	{
 		conct[a] = s2[ci];
